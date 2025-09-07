@@ -7,6 +7,13 @@ import (
 )
 
 func main() {
+	quad.QuadA(5, 3)
+	quad.QuadA(5, 1)
+	quad.QuadA(1, 1)
+	quad.QuadA(1, 5)
+
+	fmt.Println()
+
 	quad.QuadB(5, 3)
 	quad.QuadB(5, 1)
 	quad.QuadB(1, 1)
