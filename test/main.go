@@ -34,4 +34,9 @@ func main() {
 	quad.QuadD(1, 5)
 
 	fmt.Println()
+
+	quad.QuadE(5, 3)
+	quad.QuadE(5, 1)
+	quad.QuadE(1, 1)
+	quad.QuadE(1, 5)
 }
