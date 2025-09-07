@@ -9,7 +9,15 @@ func QuadE(x, y int) {
 
 	for row := 0; row < y; row++ {
 		for col := 0; col < x; col++ {
-			if row == 0 || row == y-1 {
+			if row == 0 {
+				if col == 0 {
+					fmt.Print("A")
+				} else if col == x-1 {
+					fmt.Print("C")
+				} else {
+					fmt.Print("B")
+				}
+			} else if row == y-1 {
 				if col == 0 {
 					fmt.Print("C")
 				} else if col == x-1 {
