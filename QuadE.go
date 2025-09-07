@@ -17,7 +17,7 @@ func QuadE(x, y int) {
 				} else {
 					fmt.Print("B")
 				}
-			} else if row == 1 || row == y-1 {
+			} else if row == 2 || row == y-1 {
 				if col == 0 {
 					fmt.Print("C")
 				} else if col == x-1 {
